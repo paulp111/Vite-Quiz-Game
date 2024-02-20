@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "questionText": "Wie macht eine Katze?",
+      "answers": [
+        {
+          "text": "Miau",
+          "isCorrect": true
+        },
+        {
+          "text": "Wuff",
+          "isCorrect": false
+        },
+        {
+          "text": "Muh",
+          "isCorrect": false
+        },
+        {
+          "text": "Piep",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "questionText": "Wie macht ein Hund?",
+      "answers": [
+        {
+          "text": "Miau",
+          "isCorrect": true
+        },
+        {
+          "text": "Wuff",
+          "isCorrect": true
+        },
+        {
+          "text": "Muh",
+          "isCorrect": false
+        },
+        {
+          "text": "Piep",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "questionText": "Wie macht eine Kuh?",
+      "answers": [
+        {
+          "text": "Wuff",
+          "isCorrect": false
+        },
+        {
+          "text": "Muh",
+          "isCorrect": true
+        },
+        {
+          "text": "Piep",
+          "isCorrect": false
+        },
+        {
+          "text": "Miau",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
