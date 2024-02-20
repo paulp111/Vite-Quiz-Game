@@ -13,6 +13,16 @@ import {
 import { Add as AddIcon, Refresh as RefreshIcon } from "@mui/icons-material";
 import "./components/css/App.css";
 
+function background(backgroundData: { background: string }) {
+  const baseUrl = import.meta.env.BASE_URL;
+  const backgroundImgUrl = `${baseUrl}/${backgroundData.background}`;
+  const backgroundImg = {
+    backgroundImage: `url(${backgroundImgUrl})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+}
+
 const StyledTitleTypography = styled(Typography)({
   fontFamily: 'Arial, sans-serif',
   fontSize: '5rem',
